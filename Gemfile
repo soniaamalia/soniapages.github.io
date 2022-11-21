@@ -32,5 +32,6 @@ group :jekyll_plugins do
   gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
   gem "rails", "~> 7.0.2", ">= 7.0.2.3"
   gem 'webrick', '~> 1.3', '>= 1.3.1'
+  TZInfo::DataSource.set(:zoneinfo, zoneinfo_path)
 
 end

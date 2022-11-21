@@ -29,6 +29,7 @@ group :jekyll_plugins do
   gem 'tzinfo'
   #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
   gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
-  #gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
+  gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
+  gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 
 end

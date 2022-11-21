@@ -25,5 +25,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
   gem 'rubyzip'
-  gem 'tzinfo-data'
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 end

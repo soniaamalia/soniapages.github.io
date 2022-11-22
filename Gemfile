@@ -41,11 +41,12 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'unicode_utils'
   gem 'webrick'
-
+  gem "tzinfo-data"
+  gem "tzinfo"
   #require 'rbconfig'
   #gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
   gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
-  #gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
+  gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
   #gem "rails", "~> 7.0.2", ">= 7.0.2.3"
   #gem 'webrick', '~> 1.3', '>= 1.3.1'
   #TZInfo::DataSource.set(:zoneinfo, zoneinfo_path)

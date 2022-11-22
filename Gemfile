@@ -25,13 +25,25 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
   gem 'rubyzip'
-  gem 'tzinfo-data'
-  gem 'tzinfo'
-  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-  gem 'tzinfo-data', platforms: [:mingw, :mswin]
+  gem 'wdm', '>= 0.1.0'
+  gem 'jekyll'
+  gem 'jekyll-archives'
+  gem 'jekyll-diagrams'
+  gem 'jekyll-email-protect'
+  gem 'jekyll-feed'
+  gem 'jekyll-imagemagick'
+  gem 'jekyll-minifier'
+  gem 'jekyll-paginate-v2'
+  gem 'jekyll-scholar'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-link-attributes'
+  gem 'jekyll-twitter-plugin'
+  gem 'jemoji'
+  gem 'unicode_utils'
+  gem 'webrick'
 
-  require 'rbconfig'
-  gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
+  #require 'rbconfig'
+  #gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw|cygwin/i
   #gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
   #gem 'tzinfo-data', '~> 1.2021', '>= 1.2021.5'
   #gem "rails", "~> 7.0.2", ">= 7.0.2.3"
